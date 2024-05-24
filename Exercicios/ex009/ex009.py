@@ -1,0 +1,22 @@
+n = int(input('Digite um número:'))
+mul = n * 1
+mul2 = n * 2
+mul3 = n * 3
+mul4 = n * 4
+mul5 = n * 5 
+mul6 = n * 6 
+mul7 = n * 7 
+mul8 = n * 8 
+mul9 = n * 9
+mul10 = n * 10 
+print('Tabela multiplicação:')
+print(n,'x 1 =', mul)
+print(n,'x 2 =', mul2)
+print(n,'x 3 =', mul3)
+print(n,'x 4 =', mul4)
+print(n,'x 5 =', mul5)
+print(n,'x 6 =', mul6)
+print(n,'x 7 =', mul7)
+print(n,'x 8 =', mul8)
+print(n,'x 9 =', mul9)
+print(n,'x 10 =', mul10)
