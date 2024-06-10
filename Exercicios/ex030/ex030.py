@@ -1,4 +1,4 @@
-num = int(input('Escolha um número inteiro:'))
+num = int(input('Escolha um número:'))
 soma = num % 2
 if soma == 0:
           print('Par')

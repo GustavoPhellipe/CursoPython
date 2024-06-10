@@ -1,4 +1,4 @@
-vel = float(input('O seu carro percorreu quantos km?'))
+vel = float(input('Qual seria a velocidade de seu carro?'))
 print('Aguarde...')
 if vel > 80:
           soma = ((vel - 80) * 7)
