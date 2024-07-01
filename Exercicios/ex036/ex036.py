@@ -8,4 +8,4 @@ if(Prestação <= Mínimo):
           print('CONCEDIDA')
 
 else:
-        print('Não CONCEDID')
+        print('NÂO CONCEDIDA')
