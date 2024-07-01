@@ -17,4 +17,4 @@ elif idade < 18:
         print('O alistamento será no ano {}'.format(listamento))
 
 elif idade > 18:
-        print('Você já deveria ter se alistado á muito tempo!')
+        print('Você já deveria ter se alistado á muito tempo')

@@ -5,4 +5,4 @@ print('Tirando {} e {}, sua nota em média é {}'.format(nota, segnota, nota_tot
 if nota_total >= 5:
           print('APROVADO!')
 else:
-        print('REPROVADO!')
+        print('REPROVADO')

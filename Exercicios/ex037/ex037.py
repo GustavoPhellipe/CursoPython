@@ -3,7 +3,7 @@ print('Escolha algumas das bases abaixo')
 print('[1] Converter para binário')
 print('[2] Converter para octal')
 print('[3] Converter para hexagonal')
-escolha = int(input('Escolha um número:'))
+escolha = int(input('Escolha um númer:'))
 # BINÁRIO
 if escolha == 1:
           print('O número {} convertendo BINÁRIO vai ser igual á {}'.format(num, bin(num)[2:]))
