@@ -23,6 +23,8 @@ while Opção != 5:
     elif Opção == 3:
        if Primeiro_numero > Segundo_numero :
           print('Entre o valor {} e {} o maior valor é: {}'.format(Primeiro_numero, Segundo_numero, Primeiro_numero))
+       elif Primeiro_numero == Segundo_numero:
+          print('O número {} e {} são iguais!'.format(Primeiro_numero, Segundo_numero))
        else:
           print('Entre o valor {} e {} o maior valor é: {}'.format(Primeiro_numero, Segundo_numero, Segundo_numero))
     elif Opção == 4:
