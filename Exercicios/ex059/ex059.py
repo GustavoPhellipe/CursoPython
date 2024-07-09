@@ -10,13 +10,13 @@ while Opção != 5:
     print('[ 4 ] Novos números')
     print('[ 5 ] Sair do programa')
     print('-' * 20)
-    Opção = int(input('Escolha algumas das opções:'))
+    Opção = int(input('Escolha algumas das opções acima:'))
     if Opção > 5:
        print('[ERRO] Coloque a opção correta!')
        sleep(3)
     if Opção == 1:
      Soma = Primeiro_numero + Segundo_numero
-     print('A soma entre {} + {} ficou com: {}'.format(Primeiro_numero, Segundo_numero, Soma))
+     print('A soma entre {} + {} é: {}'.format(Primeiro_numero, Segundo_numero, Soma))
     elif Opção == 2:
        Multiplicação = Primeiro_numero * Segundo_numero
        print('A multiplicação {} x {} é: {}'.format(Primeiro_numero, Segundo_numero, Multiplicação))
