@@ -30,5 +30,3 @@ while True:
                 print('O computador venceu! Tente novamente.')
                 print('Você teve {} vitória(s)!'.format(vitória))
                 break
-
-
