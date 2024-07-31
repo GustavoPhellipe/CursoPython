@@ -1,5 +1,3 @@
-valores = []
-
 '''for contador in range(0,5):
  valores.append(int(input('Digite um número:')))
 valores.sort()
