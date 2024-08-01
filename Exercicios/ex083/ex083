@@ -1,0 +1,15 @@
+lista = list()
+expressão = str(input('Digite uma expressão:')).strip()
+for símbolo in expressão:
+          if símbolo == '(':
+                  lista.append('(')
+          elif símbolo == ')':
+                  if len(lista) > 0:
+                          lista.pop()
+                  else:
+                          lista.append(')')
+                          break
+if len(lista) == 0:
+        print('A expressão está válida')
+else:
+        print('A expressão está errada!')

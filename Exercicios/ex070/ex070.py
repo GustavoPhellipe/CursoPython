@@ -1,6 +1,6 @@
-print('-=-' * 15)
-print('LOJÃO SUPER COMPRAS')
-print('-=-' * 15)
+print('-=-' * 12)
+print(f'{"LOJÃO SUPER COMPRAS":^35}')
+print('-=-' * 12)
 cont_preço = cont_preço_mil = 0
 menor = None
 barato = ' '
