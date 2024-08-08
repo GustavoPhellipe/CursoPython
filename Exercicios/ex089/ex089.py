@@ -7,7 +7,7 @@ while True:
           nome = str(input('Digite seu nome:')).strip()
           cont += 1
           if nome not in Lista_alunos:
-                  Lista_alunos.append(nome)
+           Lista_alunos.append(nome)
           nota_prova = float(input('Digite sua nota da primeira prova:'))
           nota_prova2 = float(input('Digite sua nota da segunda prova:'))
           media.append((nota_prova + nota_prova2) / 2)
@@ -43,6 +43,3 @@ while True:
                                       print('-' * 12)
                               
                           break
-                              
-                                      
-                              
