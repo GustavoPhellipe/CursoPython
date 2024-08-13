@@ -1,7 +1,8 @@
+from time import sleep
 vitória = 0
 while True:
           print('-=-' * 9)
-          print('Jogo do Ímpar ou Par')
+          print(f'{"Jogo do Ímpar ou Par":^27}')
           print('-=-' * 9)
           import random
           escolha = str(input('Ímpar ou Par? [I/P]')).strip().upper()
@@ -22,11 +23,13 @@ while True:
 
           if escolha == 'P' and soma % 2 == 0 or escolha == 'I' and soma % 2 != 0:
                     print('-' * 50)
+                    sleep(1.5)
                     print('PARABÉNS! Você foi o vencedor!')
                     print('Vamos jogar novamente..')
                     vitória = vitória + 1
           else:
                 print('-' * 50)
+                sleep(1.5)
                 print('O computador venceu! Tente novamente.')
                 print('Você teve {} vitória(s)!'.format(vitória))
                 break

@@ -1,3 +1,4 @@
+from time import sleep
 print('-=-' * 13)
 print(f'{"JOGA NA MEGA SENA":^40}')
 print('-=-' * 13)
@@ -22,4 +23,5 @@ while tot <= sorteio:
       lista.clear()
       tot += 1
 for i, l in enumerate(jogos):
-          print('JOGO {}: {}'.format(i,l))
+          print('JOGO {}: {}'.format(i+1,l))
+          sleep(1.5)

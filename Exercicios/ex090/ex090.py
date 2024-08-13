@@ -1,7 +1,7 @@
 dados = dict()
 dados_lista = list()
 
-nome = str(input('Nome:'))
+nome = str(input('Nome:')).strip()
 media = float(input('Média:'))
 if nome not in dados_lista:
           dados_lista.append(nome)

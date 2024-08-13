@@ -38,6 +38,7 @@ while True:
                                       print(f'Nome: {Lista_alunos[mostrar_notas]}')
                                       print(f'Nota 1: {notas[mostrar_notas]}')
                                       print(f'Nota 2: {notas2[mostrar_notas]}')
+                                      print(f'Media: {media[mostrar_notas]}')
                                       print('-' * 12)
                                       print('VOLTE SEMPRE!')
                                       print('-' * 12)
