@@ -21,6 +21,7 @@ while True:
                           return operação
           
  opção = pessoas_cadastradas('\033[0;32mEscolha uma opção:\033[m')
+ sleep(1)
  if opção == 1:
         print('-=-' * 10)
         print('CADASTRAR PESSOAS'.center(30))
